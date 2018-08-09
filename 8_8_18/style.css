@@ -1,6 +1,6 @@
 body {
     background-color:lightcyan;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -15,9 +15,41 @@ h2 {
     border-radius:5px;
     padding:10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    white-space: nowrap;
 }
 
 .profile {
     border-radius: 20px;
-    padding:
+    height:auto;
+    width:200px;
+    margin-left:10px;
+}
+
+#content_left{
+    display:table-cell;
+    padding-left:100px;
+}
+#content_middle{
+    display:table-cell;
+    vertical-align:middle;
+    padding-right:50px;
+    padding-left:50px;
+}
+#content_right{
+    display:table-cell;
+    padding-right:100px;
+    white-space: nowrap;
+}
+#content {
+    display:table;
+}
+a {
+    color: darkgreen;
+}
+.rightFont {
+    font-size:18px;
+}
+#description {
+    font-size:18px;
 }
