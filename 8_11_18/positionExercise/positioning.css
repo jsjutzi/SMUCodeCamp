@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+.fixed {
+    position:fixed;
+    width:100px;
+    height:100px;
+    background-color:#999;
+}
+.relative {
+    position:relative;
+    width:100px;
+    height:100px;
+    background-color:#eee;
+}
+.absolute {
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color:#999;
+}
+
+body {
+}
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #eee;
+  }
