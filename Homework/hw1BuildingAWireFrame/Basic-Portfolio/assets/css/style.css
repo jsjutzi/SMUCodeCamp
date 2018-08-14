@@ -50,6 +50,7 @@ body {
     width:auto;
     float:left;
     margin-right:15px;
+    margin-top:20px;     
 }
 #main {
     margin-top:25px;
@@ -87,6 +88,7 @@ footer {
     font-size:32px;
     color:#4aaaa5;
     border-bottom: 3px solid #cccccc;
+    margin-bottom:-10px;
 }
 #main-content {
     padding-top:20px;
