@@ -38,6 +38,7 @@ body {
 .navElement:hover {
     background-color: #FFAE0D;
     color: white;
+    opacity:0.5;
 }
 .wrapper:after  {
     content: " ";
@@ -125,6 +126,7 @@ footer {
 .floatElement:hover {
     background-color: #FFAE0D;
     color: white;
+    opacity:0.5;
 }
 #contact-wrapper {
     height: 450px;
